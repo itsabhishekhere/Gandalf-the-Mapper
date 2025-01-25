@@ -1,8 +1,31 @@
+# Web Framework
 flask[async]
+gunicorn
+
+# Crawler Dependencies
 crawl4ai
 beautifulsoup4
 aiohttp
-python-dotenv
 lxml
+
+# ML/NLP
 sentence-transformers
 numpy
+torch
+
+# Utilities
+python-dotenv
+pydantic
+tenacity
+structlog
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Development
+black
+flake8
+mypy
+isort

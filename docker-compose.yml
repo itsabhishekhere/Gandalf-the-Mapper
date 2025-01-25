@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./gandalf/data/results:/app/gandalf/data/results
+    environment:
+      - HOST=0.0.0.0
+      - PORT=5000
+      - DEBUG=False
+      - MAX_URLS=100
+      - SIMILARITY_THRESHOLD=30.0
+      - MAX_MATCHES=5
+      - MODEL_NAME=sentence-transformers/all-mpnet-base-v2
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3 

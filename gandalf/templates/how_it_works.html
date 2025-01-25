@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works - Gandalf Mapper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <nav class="mb-8">
+            <a href="/" class="text-blue-600 hover:text-blue-800">← Back to Home</a>
+        </nav>
+        
+        <h1 class="text-4xl font-bold mb-8">How It Works</h1>
+        
+        <!-- Flowchart -->
+        <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Process Flow</h2>
+            <div class="mermaid">
+                graph TD
+                    A[URL Input] --> B[URL Normalization]
+                    B --> C[Sitemap Discovery]
+                    C --> D[Content Crawling]
+                    D --> E[Content Analysis]
+                    E --> F[Category Matching]
+                    F --> G[Results Storage]
+                    
+                    style A fill:#f9f,stroke:#333
+                    style G fill:#9f9,stroke:#333
+            </div>
+        </div>
+
+        <!-- Detailed Steps -->
+        <div class="space-y-8">
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">1. URL Normalization</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">When you submit a URL, it's first normalized to ensure proper formatting:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Adds "https://" if protocol is missing</li>
+                        <li>Removes trailing slashes</li>
+                        <li>Validates URL format</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">2. Sitemap Discovery</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">The application attempts to find the website's sitemap:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Checks common sitemap locations (sitemap.xml, sitemap_index.xml)</li>
+                        <li>Falls back to robots.txt if direct sitemap not found</li>
+                        <li>Builds list of URLs to crawl</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">3. Content Crawling</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">Pages are crawled asynchronously for efficiency, with intelligent content extraction:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Respects robots.txt rules and handles rate limiting</li>
+                        <li>Removes non-content elements:
+                            <ul class="list-disc ml-6 mt-1 text-gray-500">
+                                <li>Navigation menus and footers</li>
+                                <li>Advertisements and promotional content</li>
+                                <li>Sidebars and widgets</li>
+                                <li>JavaScript and CSS code</li>
+                            </ul>
+                        </li>
+                        <li>Extracts meaningful content:
+                            <ul class="list-disc ml-6 mt-1 text-gray-500">
+                                <li>Main article text and headers</li>
+                                <li>Important images and relevant links</li>
+                                <li>Meta descriptions and titles</li>
+                                <li>Structured data when available</li>
+                            </ul>
+                        </li>
+                        <li>Converts content to clean markdown format for analysis</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">4. Content Analysis</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">Extracted content is analyzed using advanced NLP:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Processes text to remove noise</li>
+                        <li>Generates embeddings using SentenceTransformer</li>
+                        <li>Prepares content for category matching</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">5. Category Matching</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">Content is matched against taxonomy categories:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Compares content embeddings with category embeddings</li>
+                        <li>Calculates similarity scores for each tier</li>
+                        <li>Ranks matches by similarity</li>
+                        <li>Filters matches based on threshold</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold mb-4">6. Results Storage</h2>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-700">Results are stored and presented:</p>
+                    <ul class="list-disc ml-6 mt-2 text-gray-600">
+                        <li>Saves detailed results in JSON format</li>
+                        <li>Includes URLs, categories, and similarity scores</li>
+                        <li>Provides downloadable results file</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html> 

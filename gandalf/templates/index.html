@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gandalf the Mapper</title>
+    <nav class="mb-8 flex justify-between items-center">
+        <h1 class="text-4xl font-bold">Gandalf Mapper</h1>
+        <a href="/how-it-works" class="text-blue-600 hover:text-blue-800">How It Works →</a>
+    </nav>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100 min-h-screen">
@@ -112,20 +116,20 @@
                 
                 if (response.ok) {
                     // Store sitemap data for later use
-                    sitemapData = data;
+                    sitemapData = data.data;
                     
                     // Hide progress
                     document.getElementById('progress').classList.add('hidden');
                     
                     // Update and show URL selection form
-                    document.getElementById('maxUrls').textContent = data.total_urls_found;
-                    document.getElementById('urlLimit').max = data.total_urls_found;
-                    document.getElementById('urlLimit').value = Math.min(100, data.total_urls_found);
+                    document.getElementById('maxUrls').textContent = sitemapData.total_urls_found;
+                    document.getElementById('urlLimit').max = sitemapData.total_urls_found;
+                    document.getElementById('urlLimit').value = Math.min(100, sitemapData.total_urls_found);
                     document.getElementById('urlSelection').classList.remove('hidden');
                     
                     // Show initial sitemap information
                     document.getElementById('results').classList.remove('hidden');
-                    updateSitemapInfo(data.sitemap_info);
+                    updateSitemapInfo(sitemapData.sitemap_info);
                 } else {
                     throw new Error(data.error || 'Failed to fetch sitemap');
                 }
@@ -168,7 +172,7 @@
                     document.getElementById('progress').classList.add('hidden');
                     
                     // Update results
-                    updateResults(data);
+                    updateResults(data.data);
                 } else {
                     throw new Error(data.error || 'Failed to process URLs');
                 }

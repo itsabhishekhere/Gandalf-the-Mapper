@@ -1,0 +1,312 @@
+{
+  "sitemap_info": {
+    "total_urls_available": 206,
+    "urls_selected": 10
+  },
+  "crawl_summary": {
+    "total_urls_found": 206,
+    "urls_selected": 10,
+    "urls_crawled": 10,
+    "successful_crawls": 10,
+    "failed_crawls": 0,
+    "mapped_urls": 10,
+    "unmapped_urls": 0,
+    "crawl_time": "2025-01-25T14:31:51.411795",
+    "detailed_reports": {
+      "csv": "crawl_details_20250125_143126.csv",
+      "json": "crawl_details_20250125_143126.json"
+    }
+  },
+  "results": [
+    {
+      "url": "https://www.gamezop.com/",
+      "title": "Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 37851,
+      "crawled_at": "2025-01-25T14:31:28.806781",
+      "categories": [
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (33.5%) -> Video Gaming (17.7%) -> Video Game Genres (24.5%) -> Puzzle Video Games (33.5%)",
+          "similarity": 33.47
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (30.5%) -> Hobbies & Interests (8.5%) -> Games and Puzzles (29.4%) -> Board Games and Puzzles (30.5%)",
+          "similarity": 30.54
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (29.4%) -> Hobbies & Interests (8.5%) -> Games and Puzzles (29.4%)",
+          "similarity": 29.38
+        },
+        {
+          "path": "271 -> 269 -> Card Games (23.3%) -> Hobbies & Interests (8.5%) -> Games and Puzzles (29.4%) -> Card Games (23.3%)",
+          "similarity": 29.38
+        },
+        {
+          "path": "272 -> 269 -> Roleplaying Games (25.2%) -> Hobbies & Interests (8.5%) -> Games and Puzzles (29.4%) -> Roleplaying Games (25.2%)",
+          "similarity": 29.38
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/en/",
+      "title": "Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 38528,
+      "crawled_at": "2025-01-25T14:31:30.827748",
+      "categories": [
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (34.6%) -> Video Gaming (18.6%) -> Video Game Genres (25.6%) -> Puzzle Video Games (34.6%)",
+          "similarity": 34.62
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (31.9%) -> Hobbies & Interests (9.1%) -> Games and Puzzles (30.8%) -> Board Games and Puzzles (31.9%)",
+          "similarity": 31.87
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (30.8%) -> Hobbies & Interests (9.1%) -> Games and Puzzles (30.8%)",
+          "similarity": 30.82
+        },
+        {
+          "path": "271 -> 269 -> Card Games (24.4%) -> Hobbies & Interests (9.1%) -> Games and Puzzles (30.8%) -> Card Games (24.4%)",
+          "similarity": 30.82
+        },
+        {
+          "path": "272 -> 269 -> Roleplaying Games (26.4%) -> Hobbies & Interests (9.1%) -> Games and Puzzles (30.8%) -> Roleplaying Games (26.4%)",
+          "similarity": 30.82
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/hi/",
+      "title": "बेस्ट फ्री ऑनलाइन गेम्स | ऑनलाइन गेम खेलें gamezop.com पर",
+      "description": "Gamezop पर आप सबसे बेस्ट फ्री ऑनलाइन गेम्स खेल सकते हैं। Gamezop पर बेस्ट मल्टी-प्लेयर और सिंगल-प्लेयर गेम्स उपलब्ध है। चैस, लूडो किंग, कैरम, पूल, क्रिकेट गेम, शूटिंग गेम, रेसिंग गेम आप Gamezop पर मुफ्त में खेल सकते है।",
+      "content_length": 38337,
+      "crawled_at": "2025-01-25T14:31:33.118979",
+      "categories": [
+        {
+          "path": "204 -> 201 -> Design (28.5%) -> Fine Art (18.7%) -> Design (28.5%)",
+          "similarity": 28.46
+        },
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (28.0%) -> Video Gaming (18.9%) -> Video Game Genres (19.3%) -> Puzzle Video Games (28.0%)",
+          "similarity": 28.01
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (25.5%) -> Hobbies & Interests (7.9%) -> Games and Puzzles (24.8%) -> Board Games and Puzzles (25.5%)",
+          "similarity": 25.51
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (24.8%) -> Hobbies & Interests (7.9%) -> Games and Puzzles (24.8%)",
+          "similarity": 24.78
+        },
+        {
+          "path": "271 -> 269 -> Card Games (20.5%) -> Hobbies & Interests (7.9%) -> Games and Puzzles (24.8%) -> Card Games (20.5%)",
+          "similarity": 24.78
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/or/",
+      "title": "Gamezop: Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 38706,
+      "crawled_at": "2025-01-25T14:31:34.935705",
+      "categories": [
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (31.4%) -> Video Gaming (18.5%) -> Video Game Genres (23.1%) -> Puzzle Video Games (31.4%)",
+          "similarity": 31.35
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (28.9%) -> Hobbies & Interests (8.3%) -> Games and Puzzles (28.0%) -> Board Games and Puzzles (28.9%)",
+          "similarity": 28.88
+        },
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (28.4%) -> Shopping (21.5%) -> Children's Games and Toys (28.4%)",
+          "similarity": 28.35
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (28.0%) -> Hobbies & Interests (8.3%) -> Games and Puzzles (28.0%)",
+          "similarity": 27.97
+        },
+        {
+          "path": "271 -> 269 -> Card Games (22.6%) -> Hobbies & Interests (8.3%) -> Games and Puzzles (28.0%) -> Card Games (22.6%)",
+          "similarity": 27.97
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/kn/",
+      "title": "Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 38680,
+      "crawled_at": "2025-01-25T14:31:36.559518",
+      "categories": [
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (31.0%) -> Video Gaming (18.2%) -> Video Game Genres (22.0%) -> Puzzle Video Games (31.0%)",
+          "similarity": 30.96
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (28.1%) -> Hobbies & Interests (7.2%) -> Games and Puzzles (27.0%) -> Board Games and Puzzles (28.1%)",
+          "similarity": 28.07
+        },
+        {
+          "path": "204 -> 201 -> Design (27.9%) -> Fine Art (16.8%) -> Design (27.9%)",
+          "similarity": 27.86
+        },
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (27.3%) -> Shopping (21.0%) -> Children's Games and Toys (27.3%)",
+          "similarity": 27.34
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (27.0%) -> Hobbies & Interests (7.2%) -> Games and Puzzles (27.0%)",
+          "similarity": 27.03
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/te/",
+      "title": "Gamezop: Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 39315,
+      "crawled_at": "2025-01-25T14:31:38.121580",
+      "categories": [
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (29.7%) -> Video Gaming (16.9%) -> Video Game Genres (22.2%) -> Puzzle Video Games (29.7%)",
+          "similarity": 29.68
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (27.1%) -> Hobbies & Interests (7.6%) -> Games and Puzzles (26.0%) -> Board Games and Puzzles (27.1%)",
+          "similarity": 27.06
+        },
+        {
+          "path": "204 -> 201 -> Design (26.8%) -> Fine Art (15.4%) -> Design (26.8%)",
+          "similarity": 26.77
+        },
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (26.7%) -> Shopping (20.7%) -> Children's Games and Toys (26.7%)",
+          "similarity": 26.67
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (26.0%) -> Hobbies & Interests (7.6%) -> Games and Puzzles (26.0%)",
+          "similarity": 26.01
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/ta/",
+      "title": "Gamezop: Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 38748,
+      "crawled_at": "2025-01-25T14:31:39.655305",
+      "categories": [
+        {
+          "path": "204 -> 201 -> Design (26.5%) -> Fine Art (17.2%) -> Design (26.5%)",
+          "similarity": 26.52
+        },
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (26.3%) -> Video Gaming (17.6%) -> Video Game Genres (16.7%) -> Puzzle Video Games (26.3%)",
+          "similarity": 26.35
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (24.8%) -> Hobbies & Interests (7.2%) -> Games and Puzzles (24.0%) -> Board Games and Puzzles (24.8%)",
+          "similarity": 24.79
+        },
+        {
+          "path": "269 -> 239 -> Games and Puzzles (24.0%) -> Hobbies & Interests (7.2%) -> Games and Puzzles (24.0%)",
+          "similarity": 23.97
+        },
+        {
+          "path": "271 -> 269 -> Card Games (18.3%) -> Hobbies & Interests (7.2%) -> Games and Puzzles (24.0%) -> Card Games (18.3%)",
+          "similarity": 23.97
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/ru/",
+      "title": "Gamezop: Best Free Games Online | Play Online Games on gamezop.com",
+      "description": "On Gamezop you can play the best free online games. Gamezop has the best online games selection of multiplayer games and single-player games. Play Chess, Ludo King, Pool, Carrom, cricket games, shooting games, racing games online on Gamezop!",
+      "content_length": 38831,
+      "crawled_at": "2025-01-25T14:31:41.164902",
+      "categories": [
+        {
+          "path": "204 -> 201 -> Design (26.4%) -> Fine Art (19.2%) -> Design (26.4%)",
+          "similarity": 26.42
+        },
+        {
+          "path": "698 -> 685 -> Puzzle Video Games (25.7%) -> Video Gaming (14.5%) -> Video Game Genres (19.6%) -> Puzzle Video Games (25.7%)",
+          "similarity": 25.71
+        },
+        {
+          "path": "205 -> 201 -> Digital Arts (24.3%) -> Fine Art (19.2%) -> Digital Arts (24.3%)",
+          "similarity": 24.33
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (24.1%) -> Hobbies & Interests (6.7%) -> Games and Puzzles (22.5%) -> Board Games and Puzzles (24.1%)",
+          "similarity": 24.08
+        },
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (23.7%) -> Shopping (20.2%) -> Children's Games and Toys (23.7%)",
+          "similarity": 23.68
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/g/N1sZfO1fWqg/Grumpy-Gorilla",
+      "title": "Grumpy Gorilla | Gamezop | Play Now",
+      "description": "Grumpy Gorilla - This beast is addicted to chopping trees. Ensure he's on the right side else he'd bang his head!",
+      "content_length": 159,
+      "crawled_at": "2025-01-25T14:31:43.816125",
+      "categories": [
+        {
+          "path": "696 -> 685 -> MMOs (25.4%) -> Video Gaming (20.0%) -> Video Game Genres (17.0%) -> MMOs (25.4%)",
+          "similarity": 25.4
+        },
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (24.7%) -> Shopping (13.6%) -> Children's Games and Toys (24.7%)",
+          "similarity": 24.68
+        },
+        {
+          "path": "691 -> 685 -> Action-Adventure Video Games (24.4%) -> Video Gaming (20.0%) -> Video Game Genres (17.0%) -> Action-Adventure Video Games (24.4%)",
+          "similarity": 24.43
+        },
+        {
+          "path": "36 -> 1 -> Auto Shows (24.0%) -> Automotive (8.9%) -> Auto Shows (24.0%)",
+          "similarity": 24.03
+        },
+        {
+          "path": "692 -> 685 -> Adventure Video Games (23.8%) -> Video Gaming (20.0%) -> Video Game Genres (17.0%) -> Adventure Video Games (23.8%)",
+          "similarity": 23.82
+        }
+      ]
+    },
+    {
+      "url": "https://www.gamezop.com/g/NkxfOJM-qg/Fidgety-Frog",
+      "title": "Fidgety Frog | Gamezop | Play Now",
+      "description": "Fidgety Frog - The frog breaks wind to rise above bars. Help him go higher without getting smashed to smithereens!",
+      "content_length": 158,
+      "crawled_at": "2025-01-25T14:31:45.425283",
+      "categories": [
+        {
+          "path": "482 -> 473 -> Children's Games and Toys (26.1%) -> Shopping (13.6%) -> Children's Games and Toys (26.1%)",
+          "similarity": 26.06
+        },
+        {
+          "path": "696 -> 685 -> MMOs (25.7%) -> Video Gaming (20.3%) -> Video Game Genres (17.7%) -> MMOs (25.7%)",
+          "similarity": 25.74
+        },
+        {
+          "path": "691 -> 685 -> Action-Adventure Video Games (25.2%) -> Video Gaming (20.3%) -> Video Game Genres (17.7%) -> Action-Adventure Video Games (25.2%)",
+          "similarity": 25.19
+        },
+        {
+          "path": "270 -> 269 -> Board Games and Puzzles (24.8%) -> Hobbies & Interests (3.9%) -> Games and Puzzles (24.1%) -> Board Games and Puzzles (24.8%)",
+          "similarity": 24.77
+        },
+        {
+          "path": "692 -> 685 -> Adventure Video Games (24.7%) -> Video Gaming (20.3%) -> Video Game Genres (17.7%) -> Adventure Video Games (24.7%)",
+          "similarity": 24.72
+        }
+      ]
+    }
+  ]
+}
