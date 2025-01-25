@@ -1,0 +1,8 @@
+flask[async]
+crawl4ai
+beautifulsoup4
+aiohttp
+python-dotenv
+lxml
+sentence-transformers
+numpy
