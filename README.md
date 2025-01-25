@@ -85,7 +85,7 @@ Gandalf the Mapper is a powerful web application that crawls websites, analyzes 
 
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/itsabhishekhere/Gandalf-the-Mapper.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -104,4 +104,4 @@ python app.py
 
 ## Contributing
 
-Feel free to contribute to any of the future enhancements listed above. Pull requests are welcome! 
+Feel free to contribute to any of the future enhancements listed above. Pull requests are welcome!
